@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/calamities"
+        android:layout_width="213dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/rectangle_button"
+        android:backgroundTint="#6175E6"
+        android:text="@string/calamities"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FBFBFB"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#F8F6F6" />
+
+    <Button
+        android:id="@+id/emergency"
+        android:layout_width="213dp"
+        android:layout_height="192dp"
+        android:background="@drawable/rectangle_button"
+        android:backgroundTint="#DDBC59"
+        android:text="@string/emergency_contacts"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FAF8F8"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/shelter"
+        android:layout_width="213dp"
+        android:layout_height="192dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/rectangle_button"
+        android:backgroundTint="#E17810"
+        android:text="@string/shelter"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
